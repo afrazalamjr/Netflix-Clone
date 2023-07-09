@@ -1,0 +1,142 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Netflix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="netflixs.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="#home"><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Home</a>
+        <a href="#tvShows">TV Shows</a>
+        <a href="#movies">Movies</a>
+        <a href="#originals">Originals</a>
+        <a href="#">Recently Added</a>
+        <a target="_blank" href="https://www.linkedin.com/in/afraz-alam-7158981b3/m">Portfolio</a>        
+      </nav>
+      <nav class="sub-nav">
+        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+        <a href="#">Account</a>        
+      </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Popular on Netflix</h1>
+          <div class="box">
+            <a href=""><img src="https://i.ytimg.com/vi/7auNzrMdhSY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDSVW5wRBfMhCPNjmx9kdTNwRw5SQ" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/lVkKLf4DCn8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8_XxNDpZA1-DEzBmL5kriWT2BlQ" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/b1kbLwvqugk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHyL2EYjEQLApvfcU8Or8EC4eHYA" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/b7QlX3yR2xs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7t2sYvfyT48aNt4ChD7z_BvduhQ" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/5UMCrq-bBCg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNAOJH2ZkdRvRISWqdLnjmcQta5A" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/tollGa3S0o8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzyjH-RqRMo8IikCErHsUpnlNHIg" alt=""></a>
+    
+            <a href=""><img src="https://i.ytimg.com/vi/-mrC5tRkxrY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWppOkHslDO6cukK1NRZYj95Q4vg" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/R_rUYuFtNO4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVrKmKDKUVKUCkhACgTJz2y4oQzA" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/7lLigiVgJsE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYiCjz05VTxPvGCbxitYQ1gxVSAQ" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/rLCol1C3ouc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrS9WzBv9H28gcMXgYhKdkRBYQgg" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/aXzVF3XeS8M/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmQoBcku9QeFcE5HUL1Eu0FkUzLg" alt=""></a>
+            <a href=""><img src="https://i.ytimg.com/vi/tMhiHrL7rPE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLrhKraeonfhkr5KQH03BW9JO86w" alt=""></a>        
+          </div>
+      </div>
+      
+
+      <h1 id="myList">Trending Now</h1>
+      <div class="box">
+        <a href=""><img src="https://i.ytimg.com/vi/RsEZmictANA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjewL3nzphTfdyjrfh8UBbnPbWdA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/wMpqCRF7TKg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAs4VR-9uGzHsu1y2qIYdsYz7JXwg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/Pz-f9mM3Ms8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwwy_vTYhAJFNZz0Wx1TUKZifYTQ" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/WuvhOD-mP8M/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD2ZBs12l6jZzMWkfCv_7VpPQ6RA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/K-a8s8OLBSE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5I-Fp8whGGjKu34bS_eZKKaWOMA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/KsZ6tROaVOQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBknS3td3RQfh_h648lnxAGIND0Fg" alt=""></a>                  
+      </div>
+      
+      <h1 id="tvShows">TV Shows</h1>
+      <div class="box">
+        <a href=""><img src="https://i.ytimg.com/vi/AqAJLh9wuZ0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7Nlb_LQXxEemhgIJ5tyy_tlOWyg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/-BjZmE2gtdo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDh9WQBooR1Qi5KoKokyn8DaPf90A" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/Dkk9gvTmCXY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtxf0eNIXtuFIHQloLXJFWZ-DJDw" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/FuXNumBwDOM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBe3JeBVgU76nV8EODq_9ebW8eOqQ" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/Vgt1d3eAm7A/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQLBzNURdl1u0ioVBGuajoO4TtCQ" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/vO6JqQpJboY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWcu1cJJdCefsx6rG5HJyb6GNfnw" alt=""></a>
+
+        <a href=""><img src="https://i.ytimg.com/vi/maEVfpxDB8k/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCcbnLMsK97OUCjwIW5lnayr8NoA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/maEVfpxDB8k/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCcbnLMsK97OUCjwIW5lnayr8NoA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/40RsbcFRwNA/mqdefault_6s.webp?du=3000&sqp=CICgqKUG&rs=AOn4CLADZqRK1XPDk2Fe8iV5T_K6-vEinA" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/GJU-S1t2r1M/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBi6N0DCIE2prpxtEhAjB4GzH96AQ" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/F3aXpa1rQEY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCCBW2yzod1EKZF8UMx1VsZ0Y6r5Q" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/tbEekLA7J3Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZmxtuKwxvaqFVgY9fRVUOBOhCfw" alt=""></a>              
+      </div>
+      
+
+      <h1 id="movies">Blockbuster Action & Adventure</h1>
+      <div class="box">
+        <a href=""><img src="https://i.ytimg.com/vi/ApXoWvfEYVU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW0W6feL7D578Dl9oGNgjIwKSN6A" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/pttwoULmfNg/mqdefault_6s.webp?du=3000&sqp=CNilqKUG&rs=AOn4CLADuwa2DguvWRCbn2O8XLpH5eWoNg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/skMMY-CdycY/mqdefault_6s.webp?du=3000&sqp=CMifqKUG&rs=AOn4CLD-lKceEey3994inPbKxbzPf5hgdw" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/48e8Q4VvBfU/mqdefault_6s.webp?du=3000&sqp=CNSmqKUG&rs=AOn4CLDK3_3Aip3qy13n-LEGg4MvPZxGyw" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/vi/e0GRubJDdwc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQZE-FcNLkW7iIkmWDNZf4n5Rlcw" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/b2rH8Bl-cI0/mqdefault_6s.webp?du=3000&sqp=CKOsqKUG&rs=AOn4CLC9AyRIFeTa0d1hHcRAXhWa0Zn1rQ" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Netflix Originals</h1>
+      <div class="box">
+        <a href=""><img src="https://i.ytimg.com/an_webp/_6VeZAZdff0/mqdefault_6s.webp?du=3000&sqp=CLSfqKUG&rs=AOn4CLCuhFRKevbMz5kmpzT-vpuPyeyLlg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/MCG2ycuoOg4/mqdefault_6s.webp?du=3000&sqp=CM6hqKUG&rs=AOn4CLCpo3d5W1QVNI1SfVcVDta-i3rK7g" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/FNMTCT1lyhs/mqdefault_6s.webp?du=3000&sqp=CMOUqKUG&rs=AOn4CLDYclJJ4Y9Bt5G8FyLh4jRWeKcIhg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/dScgZ3NQib8/mqdefault_6s.webp?du=3000&sqp=CJGYqKUG&rs=AOn4CLBswc-zd6PO-kmtMcevNedDNBKgSg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/rUQX4zHbHCY/mqdefault_6s.webp?du=3000&sqp=COCrqKUG&rs=AOn4CLDy9XsI1luBU7oVvd_UQCWvagoDGg" alt=""></a>
+        <a href=""><img src="https://i.ytimg.com/an_webp/xbdddwVP7X4/mqdefault_6s.webp?du=3000&sqp=CMqFqKUG&rs=AOn4CLDPtKA7McplusiMb7VgkOy3BEop_w" alt=""></a>                
+      </div>
+     
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+      <div class="logos">
+        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+      </div>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio and Subtitles</a></li>
+          <li><a href="#">Audio Description</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy 1997-2018 Netflix, Inc.</p>
+      <p>Alam Jr Copy</p>
+    </footer>
+  </div>
+</body>
+</html>
